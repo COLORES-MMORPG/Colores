@@ -1,0 +1,740 @@
+
+-Hongo Resucitador/
+-Hechizos que requieren vida para su uso
+-Sistema de velocidad nunca antes visto*
+-Nuevo mundo
+-Hechizo Adrenalina
+-Hechizo Desangrar-
+-Hechizo Congelar
+-Al castear hechizos las palabras magicas no tienen siempre el mismo color(diferencia sexual)
+-Items especiales que brindan habilidades.
+-Con hechizo adrenalina pega + 100 al npc, (guerrero + 500)
+-Meditando no tenes evasion
+-Hechizo Inmo II
+-Hechizo Remo II
+-Cazador habilidades totalmente nuevas
+-Monturas
+-Nueva Ciudad
+-Barca de Agua
+-Mas vida al guerrero.
+-Espada de Hades.(pega mucho, saca vida/seg)
+-Anillo de la vida(sube vida/seg)
+-Hacha Dorada reduce la mitad de la vida del oponente al impacto.
+-El dragón no se mata de una.
+-Espada infernal(fuego, quema maná)
+-Gran Dragon Azul
+-Hechizos Golpe Espiritual (provoca que el objetivo realize un ataque basico)
+-Ahora las armaduras, escudos , armas, cascos , anillos y monturas pueden tener defensa mágica.
+-No se puede mover la ventana del juego.
+-Sistema de puntos de clanes(Aumenta 1 punto de clan al matar a un usuario de otro clan que posea puntos, máximo 100 puntos.
+ Los puntos aumentan tu daño según el cálculo: Puntos /10
+-Sistema de Auras con movimiento. Nunca antes visto.
+-Sistema de npcs spawneadores
+- Sonidos nuevos
+- Sonidos de ambientacion (Resaltar)
+- **** Hechizo fallado ***
+- Hechizo Destello
+- Anillo Linken ( probabilidad de rechazar magias ) 
+- Nuevo balance asesino ( + probabilidad de apu , apu con menos damage)
+-Druidas Usan Baculos
+-Papiro Antiguo(revela los usuarios en el mapa)
+-Agrandado render
+-Npcs caminan mas real
+-Arreglado bug npcs caminan paralizados
+-Ves a tus compañeros party en invi
+-No podes atacar a tu propio party
+-Ya no se lagea al caminar meditando
+-Arreglado bug de inventario
+-Sistema de elo implementado
+-Npc duelos 1vs1 : Emparejamiento realizado con base raiz de elo
+-Mapas de duelo 1vs1 : Distintos tipos aleatorios ( dungeon, bosque, catacumba , magma, aqua)
+-Arreglado bug pequeño en sonidos del Hechizo fallado
+-Implementado sistema de npc creador de portal al morir (para cambiar de piso)
+-(24-02-2021)Al deslogear se quitan los usuarios de las colas.
+-17-03-2021:-Al deslogear: -si estas en pareja salen ambos de la cola
+                           -Dejan de ser pareja
+           :Si estas en pareja: no puedes unirte a la cola 1vs1
+
+-10-05-2021: Agregado /hogar si estas muerto te lleva directo a la ciudad.
+20-06-2021::- Meditacion por elo
+            -Fantasma no posee  velocidad extra de movimiento.
+            -Correjido balance energia en hechizos varios
+
+21-06-2021:: -En parti mientras mas miembros son pegan mas a los npccs.
+             -el caza falla hace sonido swim
+             -Se cambio el sonido swim
+
+23-06-2021:: - Agregada moneda Lyrics
+             - modificado el /est , fueron borrados datos innecesarios
+             - Acomodado golpe cabeza , con su respectivo sonido
+             - Hechizo hiroshima : se le modifico el sonido.
+             
+
+24-06-2021:: - Ahora las mujeres tienen pijama rosa
+             - Pequeñas Modificaciones en los cuerpos
+
+26-06-2021:: -  Icono lyrics en escritorio se puede acomodar con sonido
+           
+
+27-06-2021:: - Agregado conteo de duelo con sonido
+             - Al pasar 2:20 min de duelo se disminuye la curacion de la pocion roja
+
+28-06-2021:: - Al ingresar a una party reproduce sonido
+
+30-06-2021:: - Se implemento sonido al drop segun el tipo de items que suelte el bicho
+             - Se implemento sistema de items MALÉFICOS 
+             - Al crear un item maléfico avisa en consola global.
+
+07-07-2021:: - Agregada entrada dungeon infinito
+
+08-07-2021:: - Rejas en bordes de mapas , para eviar confusiones.
+             - Sistema de Combo Magico (al lanzar hechizos ofensivos rapido , acumulas daño por lanzamiento)
+
+09-07-2021:: - Agregado mapa de torneos
+             - Nuevo Login con transparencia
+             - Nuevo Crear personaje
+             - Se removio la habilidad Robar y Domar
+             - Nuevo tutorial didactico para jugadores noveles
+
+10-07-2021:: - Opcion pantalla completa habilitada. (Se debe abrir archivo de texto pantallacompleta.txt
+               que se encuenta en carpeta extras, poner valor uno en vez de cero)
+
+21-07-2021:: - Modificaciones varias para aumentar FPS
+
+22-07-2021:: - Arreglado bug en sonidos
+             - Seguridad Auto Potas
+
+09-08-2021:: - Rebalance  de apuñalar asesino
+             - Arreglado bug cuando apuñalaba npcs mostraba mal el daño
+             - Agregado modo DeathMatch 
+             - Optimizacion menor de rendimiento en Servidor
+             - Arreglado bug golpe cabeza con arco
+             - Arreglado bug golpe cabeza , pequeño error entre usuarios
+             - Se removieron árboles de mapas de duelos
+
+10-08-2021:: - Añadido altar de poder en modo DeathMatch 
+             - Ahora solo se puede ocultar cerca de pared o algo
+
+11-08-2021:: - Modificado mapa de duelos 1vs1 Sangriento
+             - Optimizacion menor de rendimiento en Servidor
+             - Optimizacion y rebalance en el sistema Meditar
+             - Nuevo balance de Razas
+             
+12-08-2021:: - Agregado hechizo resucitar
+
+19-08-2021:: -Agregado gráfico "Hacha Dorada"
+
+24-09-2021:: -Optimizaciones de FPS
+             -Se liberaron los FPS
+11-10-2021:: -Se aumentó el tamaño del juego desde el Motor Gráfico y
+              se perfecciono la manera en la que se dibuja logrando
+              así un aumento de +400fps.( en mi humilde PC gama baja)
+
+06-12-2021:: - Arreglado tiles cliente, nuevo tamaño principal
+             - Optimizada la manera en la que convierte el click a coordenada.
+             - Cambiada letra principal
+
+08-12-2021:: - Nuevo sistema de pasos, interactuan con el terrero y con el ropaje.
+             - No podes ayudar a otros en duelo desde la ciudad.
+             - Los FX de hechizos sobre los personajes ya no se superponen.
+
+14-12-2021:: - Intrudije texturas nuevas.
+             - Borradas texturas vijeas.
+             - Agregados 20 sonidos para pasos dinámicos.
+             
+26-01-2022:: - Hechizo fallado ya no se bugea ni tiene cd
+              el tiempo de cd empieza a contar desde que 
+              conectas una magia. (MAS DINAMICO, TESTEAR)
+
+14-02-2022:: - Solucionado bug al logear con hechizos fallados.
+             - Ahora los npcs tambien reproducen sonidos de pasos segun terreno.
+
+18-02-2022:: - Graficados NPCS nuevos "BICHOS"
+             - Sistema de spawn de bichos en  hojas.
+
+17-03-2022:: - Nueva interfaz agregada
+             - Arreglado hechizos terreno(optimizacion)
+21-03-2022: -Efecto en barra de vida cuando se desgasta
+            - Pequeña modificacion para restar latencia
+
+23-04-2022: - Agregados muchos FXs nuevos
+            - Agregados MUCHOS NPCs nuevos
+            - Centrado de hechizos
+
+10-05-2022:: -Implementada mejora de rendimiento MAYOR (ahora si corre en cualquier computadora)
+             -Limitados FPS  a 126
+
+23-05-2022:: - Arreglado bug en sonidos. (no se cortan por la mitad)
+
+26-05-2022:: -Se acomodo el render text y se pusieron sombras.
+             -Implementado nuevo mapa 1
+             -Implementada nueva Interfaz (L)
+             -Se crearon varias máscaras
+
+05-07-2022: -Optimizacion en reproduccion de sonidos de ambiente por mapa
+            -Sistema de particulas sobre render agregado
+            -Se crearon las cabezas de la clase Vampiro 
+
+14-07-2022: - Personajes mas Vivos ! (Sistema de parpadeo de ojos)
+            -Parpadeo de ojos al sentir dolor
+
+18-07-2022: -Implementado sistema de climas mejorado y optimizado.(lluvia nieve viento etc)
+
+22-07-2022: -Acomodadas cosas varias en interfaz
+            -Solucionado bug guardado teclas.
+            - **Nuevo** contenedores de nick con LVL
+
+23-07-2022: -Creacion de particulas en progreso
+            -Optimizacion de rendimiento en inventario
+            -Nuevo mensajes personalidos(mas simple, sin errores)
+
+02-08-2022: -Nuevo sistema de música (nuevas músicas también)                       
+
+03-08-2022: -Agregado "Dungeon Neón"
+            -Agregado "Paraíso"
+            -Correccion de sistema de musica
+            -Eliminados MIDI
+            -Nuevos gráficos pociones :D
+
+14-08-2022: - Agregada Sombras en personajes
+15-09-2022: - Sistema de Dibujado de personaje mejorado
+                        ( Ya no se superponen los objetos equipados entre ellos)
+
+15-10-2022: -Correccion en bug de sonidos.
+
+16-10-2022: -Después de un arduo esfuerzo:
+                           *Agregados 200 cuerpos entre bajos y altos
+                           *50 Arcos
+                           *50 Sombreros
+                           *50 Cascos
+                           *50 Espadas
+                           *50 Hachas y dagas
+                           *50 Báculos
+                           *50 Escudos
+                           *50 Cascos
+16-10-2022: -Desarrollo prototypo de iconos para daño def etc.
+
+
+20-10-2022: -Sistema de spwan de Npcs mejorados
+
+                        *************************
+                      -Sistema de velocidad de ataque agregado
+                        *************************
+                      -
+21-10-2022:
+                     - Optimizado sistema de pasos, sumado realismo , mas sonidos por superficie
+
+25-10-2022:-Creacion de cuerpos nuevos y cabezas para nuevas razas
+                      -Modificacion a sonidos caminata
+                      -Optimizacion sonidos ambientales
+                      -Sonidos nuevos para hechizo fallado :D
+
+23-10-2022: - Se agregaron 4 razas nuevas***
+                       -Se modificaron 2 razas actuales
+****HUMANOS
+DEMONIOS
+SALVAJES
+VAMPIROS
+ENANOS
+GNOMOS
+****DUENDES
+
+
+5-11-2022: -Agregados muchos efectos de sangre (120 en total)
+                     -Correccion posicion de terreno en cliente
+                     -Agregado datos de daño armadura velocidad de ataque etc, en interfaz de cliente.
+                     -Agregados "            "" ""  en servidor
+                      -Sistema de velocidad de casteo agregado
+                      -Nueva formula de cálculo de daño en las peleas contra Usuarios y NPCs
+                      -Terminado de acomodar el balance primordial del servidor.
+
+6-11-2022: - Nuevo sistema de cuerpos bajos y altos en mismo item.
+                    -Correccion error daño base raza Duende
+                     -Correccion altura de cascos y sombreros
+                     -Nuevos FXs para el Disparo mágico
+                     
+8-11-2022:- Se agrego nuevo Minimapa Didactico :)
+                    -Correccion posiciones del minimapa
+                     -Se deben crear los mapas para los minimapas
+                     -Correccion menor al apuñalar
+                     -Correccion de daño base minimo al crear.
+                     -Correccion varias en texto de combate
+
+9-11-2022: -Se crearon los nuevos minimapas
+                    -Se agregó al minimapa flechas para desplazarse en el mismo,
+                     al caminar volvés donde te encontras.
+                     -Terminado nuevo minimapa didactico funcional :)
+
+10-11-2022: -Ahora ganan exp con nuevo calculo al combatir
+                       - Solo se puede subir de nivel matando NPCs
+                       -No hay límite de nivel máximo
+                        -Acomodado niveles de 3 cifras
+                         -Nuevo sonido al subir nivel con efecto 
+                    
+17-11-2022: - Se creó el nuevo Flyer :)
+
+18-11-2022: -Ahora pueden equipar el mismo item
+                        diferentes razas , con sus respectivos 
+                        cuerpos acordes..
+                       - Se eliminaron bastantes códigos innecesarios , para aumentar
+                        rendimiento del servidor :D
+                       -Ya no nacen con pociones amarillas ni verdes.
+
+23-11-2022: -Nuevo hechizo Cañon Lunar
+                       -Nuevo hechizo Espíritu Shishui
+                       -Se crearon los nuevos "Espíritus"
+                       -Eliminados viejos sonidos de combate
+                       -Arreglado bug música se  descativaba
+                       -Cambiado textos varios del cliente
+                        -Sonido no tenes suficiente oro
+                        -Cambiado varios cuerpos de NPCs.
+                        -Botón opciones colocado donde corresponde
+
+24-11-2022: -Corrección y mejora a hechizo detectar invisibilidad
+                       -Nuevo hechizo Espíritu de Ataque
+                       -Nuevo hechizo Espíritu de Defensa
+                       -Nuevo hechizo Espíritu de Proteccíon Mágica
+                       -Nuevo hechizo Espíritu de Ofensa Mágica
+                       -Correccion en auras con movimiento de items. 
+                       -Cambiado fx al transportarse
+                       -Hechizo teletransportacion : ya no puede usarse en paredes.
+                       -Nuevo sonido al Teletransportarse
+
+2-12-2022: -NPCs ahora patrullan territorio al no tener objetivos. (Modificación de IA)
+
+3-12-2022:-Agregadas cabezas de todas las clases
+                    - Mejorados NPCs visualmente
+                    -Practicando la mejora de nombres y textos
+
+3-12-2022:- Acomodadas cabezas en cliente 
+                    -Agregada pestañas para todas las razas
+                     -Balance de daño de las clases
+                     -Solucion bug que se pisaban al transportarse
+                     -Agregados portales para ir al Bosque y Pirámide Neón
+
+15-12-2022:  -Centrados fx sobre terreno.
+                       -Terminado nuevo configurar teclas
+                       -Terminada ventana sonidos
+                       -Arreglado Captura de pantalla (ScreenShot)
+
+19-12-2022: -¡ Al fin terminado la ventana Opciones Completo !
+                      -  ¡¡Argentina Campeón del MUNDO !!
+
+20-12-2022: -Nuevo sonido Invisibilidad
+                       -Nuevo menú en proceso
+                       -Nuevo Hechizo Calavera Mortal
+
+26-12-2022: -Creada ventana Rankings :D
+                       -Creacion ventana clanes (falta 30%completar)
+
+02-01-2023: -Nuevo logo en el login con movimiento (en proceso)
+
+12-01-2023: -Nuevo login terminado
+                       -Nueva sombras en estadísticas interface
+                       -Nuevo guardado de personajes(hasta15)
+                       -Nuevo menu salir (cerrar o cambiar pj)
+
+ 15-01-2023: - Translados en el bosque de mapas aledaños
+                       -Mejora visual de todos los mapas
+ 
+15-01-2023: - Al no poder conectar , intenta reconnexion automaticamente
+                       -Ventana avisa cuando no se puede conectar (en ves de un error
+                          "Connection refused by remote network") 
+                        -Proximamente conexion entre 3 servidores primarios.
+  
+24-01-2023: Fix en transportacion a los cap1 , cap2 & cap3
+                       -Arreglo en sistema de áreas Npcs & Users (ya no se escuchan sonidos lejanos)
+
+01-02-2023: - Creados y agregados gráficos para las pisadas en el agua, con onditas espansivas :)
+                       - Terminar de acomodar graficos de agua en las costas y correjir pisadas.
+
+02-02-2023: -Nueva ventana mensajes personalizados
+                        -Un paso mas cerca de terminar el nuevo renderizado de nicks.
+                        -
+05-02-2023: -Acomodada ondas espansivas en el agua al caminar sobre la misma.
+
+06-02-2023: - Creada y acomodada costas con movimiento en el agua del mapa bosque.
+
+09-02-2023: -Trabajando un poco en la inteligencia artificial promedio.
+
+20-02-2023: -Nuevo fx al teletransportarse, mucho mas moderno.
+
+27-02-2023:- Al logear reproduce respectivo grafico y sonido.
+                      - Solucionado bug al logear
+                       -Creada nuevas ventanas para crearpersonaje
+                        -Crear personaje casi completado.
+
+28-02-2023: - Acomodada nuevas ventana de crear personaje en el vb.
+
+13-03-2023: -Sonido nuevo al morir
+                      -Al regresar a la ciudad revivis de forma automatica.
+
+14-03-2023: - Al revivir tenes los items equipados que tenias al morir y llena la energia & Hp & Mp
+                       - Barra de datos y 90% terminado el Crear Nuevo.
+
+15-03-2023: -Agregado en la interfazo boton volver hogar
+                       -Agregado boton comerciar en la interfaz
+                       -Ahora no solo podés volver al morir , sino tambien estando vivo, esperando el tiempo de canalización.
+                       -Creadas armaduras doradas 1 2 3 4 fases 
+
+18-03-2023: - Agregar sonidos de caestro al hogar 
+                       - Agregar sonido revive al volver a la ciudad
+                       -
+22-03-2023:- Agregado sonido al revivirse en la ciudad
+                       -Arreglado pequeño error en sistema de seguridad
+                        -Arreglado pequeño bug en huellas en el agua
+
+04-04-2023: -Se crearon los graficos de las escencias de colores
+                       -Arreglada molestia visual en escencias fluidas
+                       -Creacion del FX Bye !
+
+03-05-2023: ***Creado los nuevos nicks hd para personajes al fin despues de mucho tiempo de investigacion ***
+                      -Optimizando letras y efectos nuevos.
+09-05-2023: - Nuevo chat en render
+                       -Optimizado movimiento de chat en render
+                        -Ahora al chatear no se puede caminar
+
+12-05-2023: - Nueva ventana tirar con seguro
+                       - Nueva ventana comerciar
+
+
+15-05-2023: - Solucionado error visual en monedas de oro en comerciar con usuarios.
+                      
+
+
+17-05-2023: - Diseñada nueva ventana comerciar entre usuarios
+
+18-05-2023: - Programando nuevo comerciar.
+                       
+20-05-2023:-Programando iconos de daño en interfaz
+                      -Agregado nuevo Efectos magicos ahora se muestran en la inferfaz
+                  
+23-05-2023: -Agregado ataque speed en inventario y estadisticas
+                       -Agregado daño magico en inventario
+                       -Creada base para el visualizador objetivo
+                        -Agregada nueva barra de experiencia
+                        -Eliminados botones invalidos que crasheaban el cliente
+
+25-05-2023 : -Visualizador objetivo funcional 90% terminado
+                        -Correjido hitbox en render 
+                         
+29-05-2023:- Agregado sistema de escencias drop
+                        -Correjido nick en render al caminar
+                        - Correjido cabeza en el minimapa
+                         -Agregadas cabezas al visualizador objetivo
+                        -Agregado terrenos al visualizador objetivo y  mejora visual
+                      
+31-05-2023: -Agregada barra de vida al visualizador objetivo y correccion de errores.
+ 
+01-06-2023:- Agregada cantidad de objetos al visualizador objetivo.
+
+02-06-2023: -Balance en costo de mana de hechizos
+                       -Balance en experiencia requerida para subir nivel.
+
+05-06-2023: - Agregadas miniaturas para visualizador de NPCS , programa and grafico
+                       -Dateado de npcs actualizado
+                       -Agregado indicador de color en recuadro miniatura . Si es verde el mapa es seguro. Si es rojo el mapa es inseguro.
+                       -Agregada caminata en alfombra y miniatura
+                       -Acomodados correctamente SpawnList Npcs  /cc
+
+12-06-2023: -Hacer que el hit damage no se suba
+                        -correjir daño total de hit combo
+                        -Hace que baje todo a cero al llegar el paquete
+
+13-06-2023 : - Mapeado los sonidos de pisadas en todos los mapas.
+
+14-06-2023: -Arreglado todos los translados  en el bosque y correccion visual 
+
+20-06-2023:- Mapeado translados piramide neon mundo completo !!
+
+21-06-2023: -Terminados mapas , retoque de colores , correccion de errores, mejora visual y aumento de sol en partes. 
+                       -Colocado todos los bloqueos en todos los mapas
+                       -Comienza el invierno, a no bajar los brazos, sigo con muchas ganas para que la gente lo disfrute y se divierta - Sleep Sheep Director.
+                       -Colocadas escaleras con sonido respectivo en el bosque. Camino hacia bruja y camino castillo abandonado.
+                       -Correccion translado neon 2
+
+24-06-2023: - Programado sistema de esencias de todos los colores
+                       -Esencia verde: Aumenta curacioón pocion roja hasta 50%
+                       -Esencia amarilla: Aumenta el oro obtenido de la muerte de un monstruo hasta 50%
+                       -Esencia Roja: Aumenta daño físico realizado hasta 50%
+                       -Esencia Azul: Reduce costo de maná de hechizos hasta 50%
+                       -Esencia blanca: Aumenta experiencia recibida al dañar monstruos hasta 50%
+                       -Esencia Cyan : Aumenta provabilidades de obtener mas esencia por monstruo hasta 50%
+                       -Esencia Violeta: Aumenta provabilidad de drop de items en monstruos hasta 50%
+
+27-06-2023: -Programado cuadrado verde en indicador que avisa si zona es segura o insegura(Rojo)
+                      -Sistema de colores en letras de chatexp.
+
+
+05-07-2023: - Agregados fxs de esencia , alas alita, Fx de casteo y Varios fx visuales mas. Muchos FXS
+                       -Programado fxs en esencia agarrada.
+
+06-07-2023:-Programado sistema de Fx al fallar ataque. Muy lindo. 
+                       - "" Sistema de liberacion de almas al matar npc. Con sonidos
+                       -Solucionado error al lanzar hechizos con esencia azul.
+                       -Fx al rechazar con escudo (mejorar imagen, voy a tomarme un dezcanso , dia a full hoy :D )
+
+07-07-2023: -Imagen mejorada de FX al rechazar escudo.
+                       -Integrado nuevo sistema FX de casteo según magias. Ya no mas palabras mágicas.
+                        -Correccion velocidades de Fx varios
+                        -Nuevo Fx a tomernta de fuego.
+                        -Agregado sistema de alas segun esencias. Aleteo pequeño y Grande. de colores. ;D
+                        -Estamos cerca del lanzamiento. Muy pocas cosas por realizar (Strong)
+
+08-07-2023:-Terminado sistema de alas con sonido de aleteo
+                      -Editado y clasificacion NPCs varios.
+                      -Correccion detalle en fx de aguas.
+                      -Agregado movimiento de agua por el mundo.
+                       
+10-07-2023: -Correccion de translados en el bosque.
+
+11-07-2023: -Eliminadas antorchas estáticas de los mapas.
+                      -Corrección fatal error  con barra de experiencia.
+                       -Correccion frames de sangres al golpear.
+
+26-07-2023:-Corrección hechizos apocalipsis descarga electrica y demases .
+
+28-07-2023: - Alfin después de mucho rompedero de cabeza se pudo superar el límite de
+                        integer de los Grh , un gran paso para la humanidad, :D
+                        -Agregado monstruos muchos (mas de 400)
+
+12-08-2023: -Ya van varios dias acomodando los npcs , errores posicion IA etc
+                      -Nuevo efecto visual para estrellas de login. :D
+
+
+26-08-2023: Hace varios dias comenze trabajo nuevo , mantuve el servidor en pausa, retomando de a poco.
+                      -Cuando se minimiza la ventana ya no eleva el consumo de RAM.
+                      -Ya no muestra icono al minimazar sobre escritorio
+                       -Correjidos cuerpos Dragón y Ogro Gigante.
+
+30-08-2023: - Correjido error en color negro en mas de 100 npcs
+
+31-08-2023: - Correccion invokar list npc.
+
+11-09-2023: -Terminado de Datear cada NPC con su cuerpo nuevo. (Arduo trabajo)
+
+
+12-09-2023:-Sistema de velocidades distintas en npcs                     - 
+
+15-09-2023: Eliminado varios mensajes en consola innecesarios
+                     -Testeo de npcs en paraiso muy bueno.
+
+02-10-2023: -Arreglado bug crash cliente en barra de vida.
+                       -Diseñadas nuevas IA para NPC's
+
+03-10-2023:-Nuevo sistema de velocidades en NPC's implementado
+
+05-10-2023:-Correccion en donde se muestra daño realizado por npcs.
+                      -Sistema de npcs que lanzan magia al suelo.(En creacion 80%)
+                       -Agregada túnica Reyna Oscura..
+
+06-10-2023:-Modificada distancia de ataque de npcs con magia
+                      -Momento de carga de magia npcs ante de castear.
+
+17-10-2023:- Agregado varios graficos lindos y pulidos por chun
+                      -Creada base posible icono nuevo.
+                      -Trabajando en inteligencia artificial de NPC's, ahora los que tiran magia al suelo miran a su objetivo antes de lanzar.
+
+24-10-2023: -Se sigue trabajando en IA  de NPCS .
+                       -Corrección texto de apuñalar.
+
+25-10-2023: -Correccion color letra pocion roja
+                       -Se sigue trabajando en IA de NPCS. (cada dia queda mas lindo)
+ 
+26-10-2023:- Acomodado sistema de volver a Hogar
+                      -Removido el sistema de sanar
+                      -Eliminado varias cosas innecesarias del juego.
+                      -La energia se recupera de a 10 ahora.
+                      -Los NPC's ya no se traban entre ellos.
+                      -Acomodado detalle menor en patrullaje de npcs.
+                      -Nuevo brillo de NPCS  al castear hechizos. 
+
+30-10-2023:-Cuando matas un npc hace sonido 1 segundo de delay 
+
+31-10-2023:-***Correccion hitbox al lanzar magias,***
+                      -Creando magias de IA
+                      -Al resucitar en la ciudad se llena la maná.
+
+
+15-11-2023: - Nuevo Botón lanzar :)
+                       -Corrección en meditar
+
+16-11-2023: -Creadas letras con imagen para pase de mapas.
+
+
+
+27-11-2023:- Arreglados carteles de error en el conectar principal
+                      -Terminando el nuevo sistema de invisibilidad infalible (anti-radar)
+          
+04-12-2023:-Terminado detalles de nuevo sistema de invisibilidad más seguro. (80%)
+
+23-12-2023: -Terminado nombres de mapa con imágenes al cambio de mapas. 2 dias para Navidad jaja ;D
+
+
+28-12-2023:-Correccion y acabado de pases de mapas
+                      -Creado primer diseño de díalogos
+
+
+12-01-2024: -Desarrollo de nuevo sistema de mascotas iniciales.
+                       -Se arregló el World Editor.
+
+04-02-2024:-Ahora las mascotas y npcs pequeños no traban users.
+                      -Se termino de colocar y datear npcs de Paraiso
+                       -Se pusieron nuevos cuerpos a los vendedores de la ciudad.
+
+
+20-02-2024:-Agregados hechizos Combustión y Látigo Ígneo (100%)
+                      -Agregadas miniaturas de todos los objetos
+                      -Agregados objetos a los vendedores de la ciudad
+                      -Arreglado pequeño error en el dibujado de nombres.
+
+27-02-2024:- Terminado de datear objetos en vendedores (90%)
+                      -Agregado efecto en portales.
+
+28-02-2024:-Ahora para comprar solo tenes que acercarte al vendedor.
+                      -Se cierra la ventana de comercio al caminar.
+                      -Corrección errores visuales en mapas, y bloqueos.(hasta cripta , revisar demás)
+
+15-03-2024: - Agregados NPCS en diferentes dungeons por el mundo
+                       -Dateados NPCS i testeado nuevo sistema de spawns
+                       -Correccion varias en hechizos
+
+18-03-2024:  -Correccion hechizo Negativa Nuclear y Calavera Mortal
+                       -Los personajes ya no desaparecen al chocar
+                       -Terminando de pulir errores del nuevo sistema de invisibilidad
+
+20-03-2024: -Ahora se ven los efectos del usuario  invisible.
+
+31-03-2024: -Correcion bordes en mapas Neons
+
+11-04-2024: - Spawn de Dragones y brujas terminado.
+                       -Correccion Fx al lanzar magias(npcs)
+
+14-04-2024: -Terminado sistema de IA de DosBrujas Negras.
+
+20-04-2024: -Efecto al lanzar hechizos estando invisible. 
+                       -Efecto al recibir hechizos estando invisible.
+
+23-04-2024: - Agregado Cañon lunar a los efectos en invi.
+                       -Nuevo Wav para Calavera Mortal
+                       -Correción bug no gastaba mana hechizos.
+                        -Correccion error visual en Detectar Invisibles
+                        -Agregado Cartel Dos Brujas con indicador de nivel.
+                        -Nuevo Wav para Negativa Nuclear
+
+
+
+01-05-2024: -Agregados carteles por el bosque que indican nivel 
+                       para entrenar.
+                      -Corrección fatal error en hechizo Combustión
+
+17-05-2024: - Agregadas mascotas en mapa tutorial 
+                       -Nuevo sistema para que las mascotas no traben al usuario
+                       -Agregados mapas tutorial y selección de mascotas
+                       -Las vida de las mascotas es el nivel del usuario por 10 (lvl *10)
+                   
+24-05-2024:-Agrandado el chat y mejora visual en letras.
+                      -Correcion en imagen de pases de mapas
+                      -Correcion posicion Títulos de mapas.
+
+
+26-05-2024:-Las mascotas no persiguen otros objetivos. Solo a su dueño
+                      -Mejora en visualización de chat. 
+                       -Agregado Globos de chat con sonidos.
+
+30-05-2024: - Las mascotas no atacan npcs.
+                       -Agregado tutorial con Jazmin
+                       -Correción en ventana personajes guardados.
+
+04-06-2024: -Ahora se ve nivel de los enemigos.
+                       -Al tomar pociones muestra cuanto recarga abajo.
+                       -Mascotas hacen sonidos al ser dañadas y al caminar juntos.
+
+05-06-2024: -Acomodado grafico de esencias.
+
+17-06-2024:-Avisa por consola flotante cuando desactivas el seguro
+                      -Eliminado sistema de npcs pertenecientes.
+
+24-06-2024: -Terminado sistema de ciudadanos y criminales
+                       (cuando atacas a un ciudadano sin el seguro te volves criminal
+                        para volver a ser ciudadano tenes que matar npcs * 10 de los ciudadanos 
+                        que tengas matados) Atacar a un ciudadano reinicia puntos de ciudadano.
+                        -Eliminado criaturas pertenecientes al entrenar.
+                       
+26-06-2024: - Agregado cuerpo nuevo de fantasmita
+                       -Agregado cuerpo fantasma criminal y efectos de brillos sobre fantasmas.
+                        -Corrección princesa apocalipsis.
+
+26-07-2024: -Creado y Agregado boton Salas de juego y Amigos
+                       -Correccion en inventario.
+
+30-07-2024: -Investigacion finalizada para nuevo render de nombres.
+
+31-07-2024: - Arreglado error con mascotas al volver al mapa 1
+
+02-08-2024: -Corrección invocación de mascotas.
+                       - Completado 50% chat con amigos.
+                       -70% 4 am
+
+08-08-2024: -Terminado niveles en personajes.
+                       -80% Completado pestaña amigos. Añadido Jugadores recientes
+                        -Continuar con de recientes a amigos,..
+            
+21-08-2024:-Látigo igneo ahora ataca npcs. Lo mismo combustion
+                      -Programando pestaña amigos
+                      -Ahora se pueden vender objetos en las tiendas.
+
+26-08-2024: - Terminado chat con amigos de lejos y  jugadores recientes.
+                       -Solo podés ver y hablar con tus amigos que estén conectados. 100% funcional
+
+27-08-2024:-Corrección al asesinar otros jugadores y volverte criminal.
+                      -Matar npcs da 10 puntos de ciudadano. Matar un ciudadano da 100 puntos de criminal.
+
+30-08-2024: -Corrección en guardado de mundo.
+
+
+08-09-2024: -Nuevo * Ahora las mascotas no traban a sus dueños.
+
+11-09-2024: -Arreglado error en dibujado de nicks.
+
+15-09-2024: -Agregado grafico atuendo inicial en inventario
+
+16-09-2024: -Agregadas salas 5vs5 , Ultimo estalla  y Duelo. (80%terminado)
+                       -Corrección posicion antorchas del dragón en mapa principal.
+17-09-2024:-Correcion bloqueos en antorchas mapa principal
+                      -Agregado efecto de fuego antorchas mapa principal
+                      -Agregado efecto de luz en transportes mágicos
+
+
+26-09-2024:-Correccion error al teletransportarse en portales.
+
+02-10-2024:-Corrección de errores varios 
+                      -Las colas de juegos no se superponen. 
+                      -Terminado sistema de salas de juego.
+
+15-11-2024:-Agregado atuendo inicial en clases bajas
+
+
+Colores: -1 Verde
+                -2 Amarillo
+                 -3 Rojo
+                 -4 Azul
+                 -5 Gris
+                 -6 Cyan
+                 -7 Violeta
+                 -8 Negro Gris
+                 -9 Naranja
+                 -10 Celeste
+                 -11 Rosa
+                 -12 Marrón
+                 -13 Morado
+                 -14 Verde Oscuro
+
+
+
+
+
+¿ Qué estás esperando para probarlo y tener las mejores horas de diversión ?
+
+
+
